@@ -1,0 +1,9 @@
+C:\Users\RenzCute\source\repos\Queue\Queue\bin\Debug\Queue.exe
+C:\Users\RenzCute\source\repos\Queue\Queue\bin\Debug\Queue.pdb
+C:\Users\RenzCute\source\repos\Queue\Queue\obj\Debug\Queue.csproj.AssemblyReference.cache
+C:\Users\RenzCute\source\repos\Queue\Queue\obj\Debug\Queue.QueueForm.resources
+C:\Users\RenzCute\source\repos\Queue\Queue\obj\Debug\Queue.Properties.Resources.resources
+C:\Users\RenzCute\source\repos\Queue\Queue\obj\Debug\Queue.csproj.GenerateResource.cache
+C:\Users\RenzCute\source\repos\Queue\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+C:\Users\RenzCute\source\repos\Queue\Queue\obj\Debug\Queue.exe
+C:\Users\RenzCute\source\repos\Queue\Queue\obj\Debug\Queue.pdb
