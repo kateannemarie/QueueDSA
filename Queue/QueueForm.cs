@@ -21,6 +21,7 @@ namespace Queue
             _queueTimer.Interval = 1000;
             _queueTimer.Tick += _queueTimer_Tick;
             _numberQueue = new NumberQueue();
+            ResetQueueBtn.Enabled = false;
         }
 
         private void _queueTimer_Tick(object sender, EventArgs e)
@@ -37,9 +38,10 @@ namespace Queue
             QueueListBox.Items.AddRange(_numberQueue.GetQueue().ToArray());
 
             ShowNextBtn.Enabled = _numberQueue.GetQueue().Count != 0;
+            ResetQueueBtn.Enabled = _numberQueue.GetQueue().Count != 0;
 
-            QueueCountTxt.Text = String.Format("Queue Count: {0}", _numberQueue.GetQueue().Count);
-            QueueLastTxt.Text = String.Format("Queue Last #: {0}", _numberQueue.CurrentNumber());
+            QueueCountTxt.Text = String.Format("Queue Length: {0}", _numberQueue.GetQueue().Count);
+            QueueLastTxt.Text = String.Format("Queue Last No. {0}", _numberQueue.CurrentNumber());
         }
 
         private void AutoQueueBtn_Click(object sender, EventArgs e)
@@ -47,10 +49,10 @@ namespace Queue
             Button senderBtn = ((Button)sender);
             if (senderBtn.BackColor == Color.WhiteSmoke)
             {
-                senderBtn.BackColor = Color.PaleTurquoise;
+                senderBtn.BackColor = Color.Moccasin;
                 EnqueueBtn.Enabled = false;
                 _queueTimer.Start();
-            } else if (senderBtn.BackColor == Color.PaleTurquoise)
+            } else if (senderBtn.BackColor == Color.Moccasin)
             {
                 senderBtn.BackColor = Color.WhiteSmoke;
                 EnqueueBtn.Enabled = true;
@@ -70,7 +72,7 @@ namespace Queue
             {
                 string messageQueue = _numberQueue.DequeNumber();
                 RefreshQueueList();
-                MessageBox.Show(this, String.Format("The {0} removed.", messageQueue), "Dequeued Item");
+                MessageBox.Show(this, String.Format("The {0}'s order has been completed. Thank you!", messageQueue), "McDonald's Queue - Dequeued");
             }
         }
 

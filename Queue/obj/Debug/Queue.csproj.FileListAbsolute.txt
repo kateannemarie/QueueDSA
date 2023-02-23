@@ -7,3 +7,14 @@ C:\Users\RenzCute\source\repos\Queue\Queue\obj\Debug\Queue.csproj.GenerateResour
 C:\Users\RenzCute\source\repos\Queue\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
 C:\Users\RenzCute\source\repos\Queue\Queue\obj\Debug\Queue.exe
 C:\Users\RenzCute\source\repos\Queue\Queue\obj\Debug\Queue.pdb
+C:\Users\camil\QueueDSA\Queue\bin\Debug\Queue.exe.config
+C:\Users\camil\QueueDSA\Queue\bin\Debug\Queue.exe
+C:\Users\camil\QueueDSA\Queue\bin\Debug\Queue.pdb
+C:\Users\camil\QueueDSA\Queue\obj\Debug\Queue.csproj.AssemblyReference.cache
+C:\Users\camil\QueueDSA\Queue\obj\Debug\Queue.csproj.SuggestedBindingRedirects.cache
+C:\Users\camil\QueueDSA\Queue\obj\Debug\Queue.QueueForm.resources
+C:\Users\camil\QueueDSA\Queue\obj\Debug\Queue.Properties.Resources.resources
+C:\Users\camil\QueueDSA\Queue\obj\Debug\Queue.csproj.GenerateResource.cache
+C:\Users\camil\QueueDSA\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+C:\Users\camil\QueueDSA\Queue\obj\Debug\Queue.exe
+C:\Users\camil\QueueDSA\Queue\obj\Debug\Queue.pdb
